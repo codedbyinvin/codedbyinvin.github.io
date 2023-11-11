@@ -14,13 +14,13 @@ body {
 }
 
 h1 {
-    font-size: 150px; /* make title bigger */
+    font-size: 10vw; /* make title bigger */
     text-align: center; /* center title */
 }
 
 .counter {
     margin: 40px 20px; /* increase vertical space between counters */
-    font-size: 3em; /* make emojis bigger */
+    font-size: 5em; /* make emojis bigger */
     text-align: center; /* center counters */
 }
 
