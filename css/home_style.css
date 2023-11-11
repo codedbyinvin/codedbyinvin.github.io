@@ -1,0 +1,31 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* prevent scrolling */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #827d83;
+}
+
+.navbar, .footer {
+    background-color: #4a148c; /* dark purple */
+    color: white; /* darker shade of light purple */
+    padding: 10px 0; /* adjust padding to control height */
+    text-align: center;
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white; /* white */
+}
+
+.header, .content, .footer {
+    flex: 1;
+    padding: 20px;
+}

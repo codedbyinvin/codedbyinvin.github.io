@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', monospace; /* terminal-like font */
+    color: #0f0; /* green */
+}
+
+h1 {
+    font-size: 10vw; /* make title bigger */
+    text-align: center; /* center title */
+}
+
+.counter {
+    margin: 40px 20px; /* increase vertical space between counters */
+    font-size: 5em; /* make emojis bigger */
+    text-align: center; /* center counters */
+}
+
+h1, h2, p, button {
+    position: relative;
+    z-index: 2;
+    color: #0f0; /* green */
+}
+
+button {
+    border: 2px solid #0f0; /* green */
+    padding: 10px;
+    cursor: pointer;
+    background-color: transparent; /* make button transparent */
+}
+
+button:hover {
+    background-color: #0f0; /* green */
+    color: #000; /* black */
+}
+
+h2{
+    
+    font-size: 2em; /* make counters bigger */
+    text-align: center; /* center counters */
+}
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
