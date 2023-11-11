@@ -1,17 +1,31 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
+    <title>Day Counter</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compteur de Jours</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Compteur de Jours</h1>
-        <div id="countdown"></div>
-    </div>
+    <canvas id="canvas" style="background: #111;"></canvas>
+    <h1>Day Counter</h1>
 
-    <script src="script.js"></script>
+    <h2>⏱</h2>
+    <p id="counter_moine">0</p>
+    <button id="reset_moine">Reset</button>
+
+    <h2>🗿</h2>
+    <p id="counter_fit">0</p>
+    <button id="reset_fit">Reset</button>
+
+    <h2>🍎</h2>
+    <p id="counter_eat">0</p>
+    <button id="reset_eat">Reset</button>
+
+    <script src="js/script.js"></script>
+   
+
 </body>
 </html>
